@@ -1,0 +1,22 @@
+.container{
+    width: 100%;
+    height: 100%;
+    .wrapper{
+        width: 100%;
+        .text{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            .inner_text{
+                font-weight: 800;
+                font-size: large;
+                margin-bottom: 50px;
+            }
+        }
+        .restaurantList{
+            width: 100%;
+
+        }
+
+    }
+}

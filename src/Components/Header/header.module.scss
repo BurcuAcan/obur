@@ -1,0 +1,45 @@
+@import '../../Styles/color.module.scss';
+@import '../../Styles/font.module.scss';
+
+.container{
+    width: 100%;
+    background-color: var(--background-color);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+    height: 8rem;
+    .header{
+        padding: 20px 30px;
+        display: flex;
+        height: 100%;
+        .logo{
+            flex:1; 
+            color: var(--header-color);
+            font-size: var(--header-size);
+            font-weight: var(--header-weight);
+            height: auto;
+        }
+        .search{
+            flex:4;
+            display: flex;
+            justify-content: center;
+            height: 2.5rem;
+            align-items: center;
+            padding-right: 50px;
+
+        }
+        .location{
+            flex:2;
+            display: flex;
+            justify-content: center;
+            height: 2.5rem;
+            align-items: center;
+
+        }
+        .catagories{
+            flex:1;
+            display: flex;
+            justify-content: flex-end;
+            height: 50%;
+        }
+    }
+
+}

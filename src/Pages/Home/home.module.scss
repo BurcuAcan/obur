@@ -1,0 +1,51 @@
+@import '../../Styles/font.module.scss';
+.container{
+    width: 100%;
+
+
+    .location{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        
+        .bar{
+            padding: 10px;
+            width: 30%;
+            border: 1px solid black;
+            text-align: center;
+        }
+       
+
+    }
+    .restorantInfo {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    
+        .category {
+            display: flex;
+            flex-grow: 1;
+            justify-content: flex-start;
+            font-size: var(--large-size);
+            padding-top: 50px;
+            font-weight: 500;
+            font-size:20pt;
+            align-items: center; 
+            .icon{
+                padding-left:10px ;
+            }
+        }
+    }
+    
+    .restorantList{
+        height: 200px;
+        border:1px solid black ;
+
+    }
+}
+
+button{
+    border-radius: 0px;
+    background-color: none;
+}
